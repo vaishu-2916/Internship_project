@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color:blanchedalmond;
+    color:rgb(15, 14, 14);
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(18, 17, 17);
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero .cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color:rgb(123, 117, 120);
+    color: white;
+    text-decoration:dotted;
+    border-radius: 5px;
+}
+
+.features {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.features .column {
+    float:inline-start;
+    width: 30%;
+    margin:0vmax;
+    text-align:left;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.features .column h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.features .column p {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    clear: both;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .features .column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
